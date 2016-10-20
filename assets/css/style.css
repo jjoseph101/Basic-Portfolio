@@ -58,7 +58,7 @@ header {
 	position: relative;
 	float: left;
 	width: 750px;
-	margin-top: 300px;
+	margin-top: 30px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin-left: 140px;
 	background-color: #ffffff;
@@ -69,13 +69,15 @@ header {
 	float: left;
 	position: relative;
 	background-color:#4aaaa5;
-	width: 160px;
-	padding-top: 30px;
-	padding-right: 20px;
-	padding-bottom: 30px;
+	width: 200px;
+	padding-top: 20px;
+	padding-right: 35px;
+	padding-bottom: 20px;
 	padding-left: 40px;
 	margin:20px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	text-align: center;
 
 }
 
@@ -83,7 +85,7 @@ header {
 	position: relative;
 	float: left;
 	width: 750px;
-	margin-top: 300px;
+	margin-top: 30px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin-left: 140px;
 	background-color: #ffffff;
@@ -99,7 +101,7 @@ header {
 	position: relative;
 	float: left;
 	width: 750px;
-	margin-top: 300px;
+	margin-top: 30px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin-left: 140px;
 	background-color: #ffffff;
@@ -108,12 +110,13 @@ header {
 
 .headerall {
 	background-color: #ffffff;
+	height: 230px;
 }
 
 .sidelinks {
 	position: absolute;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	margin-top: 300px;
+	margin-top: 30px;
 	margin-left: 1000px;
 	background-color: #ffffff;
 	padding: 20px;
@@ -122,13 +125,20 @@ header {
 .footercopyright {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-color: #666666;
-	margin-top: 1200px;
 	height: 70px;
 	padding-top: 30px;
-	width: 1300px;
+	margin-top: 10px;
+	width: 100%;
 	position: absolute;
 	text-align: center;
 	color: white;
+	font-size: 15px;
+}
+
+.footerwrapper {
+	background-color:#4aaaa5;
+	height: 10px;
+	margin-top:1190px;
 }
 
 #picme {
