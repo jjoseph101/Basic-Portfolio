@@ -28,6 +28,10 @@ p {
 	
 }
 
+header {
+	background-color: #ffffff;
+}
+
 .headername {
 	float: left;
 	position: absolute;
@@ -50,6 +54,31 @@ p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.portfolio {
+	position: relative;
+	float: left;
+	width: 750px;
+	margin-top: 300px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left: 140px;
+	background-color: #ffffff;
+	padding: 20px;	
+}
+
+.portfolio2 {
+	float: left;
+	position: relative;
+	background-color:#4aaaa5;
+	width: 160px;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	margin:20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
 .aboutme {
 	position: relative;
 	float: left;
@@ -57,7 +86,28 @@ p {
 	margin-top: 300px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin-left: 140px;
+	background-color: #ffffff;
+	padding: 20px;
 
+}
+
+.bodytxt {
+	line-height: 200%;
+}
+
+.contactme {
+	position: relative;
+	float: left;
+	width: 750px;
+	margin-top: 300px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left: 140px;
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+.headerall {
+	background-color: #ffffff;
 }
 
 .sidelinks {
@@ -65,15 +115,27 @@ p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin-top: 300px;
 	margin-left: 1000px;
+	background-color: #ffffff;
+	padding: 20px;
 }
 
 .footercopyright {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	margin-top: 1000px;
+	background-color: #666666;
+	margin-top: 1200px;
+	height: 70px;
+	padding-top: 30px;
+	width: 1300px;
 	position: absolute;
-
+	text-align: center;
+	color: white;
 }
 
 #picme {
 	float: left;
+	padding-right: 20px;
+}
+
+#wrapper {
+	background-color: blue;
 }
