@@ -66,20 +66,19 @@ header {
 }
 
 .portfolio2 {
-	float: left;
 	position: relative;
 	background-color:#4aaaa5;
-	width: 200px;
+	width: 225px;
 	padding-top: 20px;
 	padding-right: 35px;
 	padding-bottom: 20px;
 	padding-left: 40px;
-	margin:20px;
+	margin-top: -60px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 20px;
 	text-align: center;
-
 }
+
 
 .aboutme {
 	position: relative;
@@ -122,6 +121,11 @@ header {
 	padding: 20px;
 }
 
+.portpic {
+	padding: 20px 15px 20px 15px;
+	float: left;
+
+}
 .footercopyright {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-color: #666666;
@@ -148,4 +152,9 @@ header {
 
 #wrapper {
 	background-color: blue;
+}
+
+.portpic {
+
+	padding: 20px 15px 20px 15px;
 }
